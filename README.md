@@ -2,7 +2,7 @@
 
 
 # 1. Extracting Dates from a text file
-    -Uses `dateparser`, `nltk` and `re` modules 
+    -Uses ```dateparser```, `nltk` and `re` modules 
     
     
     - 5 different formats of dates are identified: 
