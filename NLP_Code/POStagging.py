@@ -88,8 +88,7 @@ def process_text(input_file, output_file):
 
                                         if most_related_synset is not None:
                                             definition = most_related_synset.definition()[:30]
-                                            file.write(
-                                                "\t\t{} - Related Synset: {} - Definition: {}\n".format(other_noun,  most_related_synset,definition))
+                                            file.write("\t\t{} - Related Synset: {} - Definition: {}\n".format(other_noun,  most_related_synset,definition))
 
                     file.write("=" * 80 + '\n')
 
