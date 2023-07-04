@@ -18,6 +18,8 @@
 - The text file is first processed and tokenized into sentences and words, as that makes it easier to perform Part-of-Speech tagging. The tagging is then used to find releated synsets for nouns. 
   
 - Uses WordNet library to find related synsets for the nouns and saves the processed information into an output file.
-  DEPENDENCIES:
+
+
+   DEPENDENCIES:
 - Created with Python 3.10.11
 - Requires NLTK (Natural Language Toolkit) library; uses sent_tokenize/word_tokenize and wordnet which is imported from the nltk.corpus.
